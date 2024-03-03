@@ -1,5 +1,6 @@
  body {
-  font-size: 14px;
+  font-size: 20px;
+  --bs-body-font-size: 20px;
  }
 #openingtimes table {
     border-collapse: collapse;
@@ -67,7 +68,11 @@ p {
 }
 
 h1 {
-  font-size: 40px
+  font-size: 25px
+}
+
+h5 {
+  font-size: 25px !important;
 }
 
  
