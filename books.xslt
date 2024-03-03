@@ -17,85 +17,51 @@
             <script src="https://cdn.jsdelivr.net/npm/@floating-ui/dom@1.6.3"></script>
         </head>
 
-    <xsl:element name="header">
-        <xsl:element name="div">
-            <xsl:attribute name="class">container</xsl:attribute>
-            <xsl:element name="nav">
-                <xsl:attribute name="class">navbar navbar-expand-sm bg-dark navbar-dark</xsl:attribute>
-                <xsl:element name="div">
-                    <xsl:attribute name="class">container-fluid</xsl:attribute>
-                    <xsl:element name="a">
-                        <xsl:attribute name="class">navbar-brand</xsl:attribute>
-                        <xsl:attribute name="href">#</xsl:attribute>
-                        <xsl:element name="img">
-                            <xsl:attribute name="src">logo.png</xsl:attribute>
-                            <xsl:attribute name="width">70</xsl:attribute>
-                            <xsl:attribute name="alt">Logo</xsl:attribute>
-                        </xsl:element>
-                    </xsl:element>
-                    <xsl:element name="button">
-                        <xsl:attribute name="class">navbar-toggler</xsl:attribute>
-                        <xsl:attribute name="type">button</xsl:attribute>
-                        <xsl:attribute name="data-bs-toggle">collapse</xsl:attribute>
-                        <xsl:attribute name="data-bs-target">#collapsibleNavbar</xsl:attribute>
-                        <xsl:element name="span" namespace="http://www.w3.org/2000/svg">
-                            <xsl:attribute name="class">navbar-toggler-icon</xsl:attribute>
-                        </xsl:element>
-                    </xsl:element>
-                    <xsl:element name="div">
-                        <xsl:attribute name="class">collapse navbar-collapse</xsl:attribute>
-                        <xsl:attribute name="id">collapsibleNavbar</xsl:attribute>
-                        <xsl:element name="div">
-                            <xsl:attribute name="class">headerright</xsl:attribute>
-                            <xsl:element name="ul">
-                                <xsl:attribute name="class">navbar-nav</xsl:attribute>
-                                <xsl:element name="li" >
-                                    <xsl:attribute name="class">nav-item</xsl:attribute>
-                                    <xsl:element name="a">
-                                        <xsl:attribute name="class">nav-link</xsl:attribute>
-                                        <xsl:attribute name="href">main.html</xsl:attribute>
-                                        <xsl:element name="i" namespace="http://www.w3.org/2000/svg">
-                                            <xsl:attribute name="class">bi bi-house</xsl:attribute>
-                                        </xsl:element>
-                                        main
-                                    </xsl:element>
-                                </xsl:element>
-                                <xsl:element name="li">
-                                    <xsl:attribute name="class">nav-item</xsl:attribute>
-                                    <xsl:element name="a">
-                                        <xsl:attribute name="class">nav-link</xsl:attribute>
-                                        <xsl:attribute name="href">books.xml</xsl:attribute>
-                                        <xsl:element name="i" namespace="http://www.w3.org/2000/svg">
-                                            <xsl:attribute name="class">bi bi-book</xsl:attribute>
-                                        </xsl:element>
-                                        program
-                                    </xsl:element>
-                                </xsl:element>
-                            </xsl:element>
-                        </xsl:element>
-                        <xsl:element name="div">
-                            <xsl:attribute name="class">headercontact</xsl:attribute>
-                            <xsl:element name="div">
-                                <xsl:attribute name="class">headerrighticon</xsl:attribute>
-                                <xsl:element name="i" namespace="http://www.w3.org/2000/svg">
-                                    <xsl:attribute name="class">bi bi-phone</xsl:attribute>
-                                </xsl:element>
-                            </xsl:element>
-                            <xsl:element name="div">
-                                <xsl:attribute name="class">headerrighticon</xsl:attribute>
-                                <xsl:element name="i" namespace="http://www.w3.org/2000/svg">
-                                    <xsl:attribute name="class">bi bi-envelope</xsl:attribute>
-                                </xsl:element>
-                            </xsl:element>
-                        </xsl:element>
-                    </xsl:element>
-                </xsl:element>
-            </xsl:element>
-        </xsl:element>
-    </xsl:element>
-
             
             <body>
+
+            <header>
+            <div class="container">
+                <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">
+                            <img src="logo.png" width="70" alt="Logo"/>
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                            <div class="headerright">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="main.html">
+                                            <i class="bi bi-house"></i> main
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="books.xml">
+                                            <i class="bi bi-book"></i> program
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="headercontact">
+                                <div class="headerrighticon">
+                                    <a href="tel:02084115000">
+                                        <i class="bi bi-phone"></i>
+                                    </a>
+                                </div>
+                                <div class="headerrighticon">
+                                    <a href="mailto:info@ourbookshop.com">
+                                        <i class="bi bi-envelope"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
 
             
                 <div class="container">

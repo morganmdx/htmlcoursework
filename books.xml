@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="books.xslt"?>
+<?xml-stylesheet type="text/xsl" href="header.xsl"?>
 <books>
     <book>
         <title>Harry Potter</title>
