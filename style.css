@@ -30,6 +30,7 @@
  }
 
  .navbar-brand {
+  margin-left: 0px;
   width: 100px; 
   margin-left: 0px;
  }
@@ -37,7 +38,20 @@
  .headerrighticon {
   width:50% ;
   text-align: center;
+  display: inline-block;
+  float: left;
  }
+
+
+ .navbar-expand-sm .navbar-collapse {
+  justify-content: center; 
+  padding-right: 0px;
+}
+
+
+
+
+ 
 
  
 
