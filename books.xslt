@@ -98,10 +98,10 @@
             <body>
 
             
-                <h1>Book List</h1>
                 <div class="container">
-                <table>
-                    <tr>
+                <h1>Book List</h1>
+                <table class="table">
+                    <tr class="table-primary">
                         <th>Title</th>
                         <th>Author</th>
                         <th>Genre</th>
