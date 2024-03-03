@@ -21,6 +21,7 @@
 
  .headercontact{
   float: right ;
+  width: 100px ;
  }
 
  .headerright{
@@ -32,6 +33,14 @@
   width: 100px; 
   margin-left: 0px;
  }
+
+ .headerrighticon {
+  width:50% ;
+  text-align: center;
+ }
+
+ 
+
 
 
 
