@@ -8,8 +8,6 @@
 
   
   .container {
-    position: fixed; /* or 'absolute' */
-    top: 0;
-    right: 0;
-    padding: 10px; /* Adjusts space around the logo */
+    position: relative;
+    padding: 10px; 
   }
