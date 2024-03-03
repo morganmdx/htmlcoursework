@@ -99,6 +99,7 @@
 
             
                 <h1>Book List</h1>
+                <div class="container">
                 <table>
                     <tr>
                         <th>Title</th>
@@ -117,6 +118,7 @@
                         </tr>
                     </xsl:for-each>
                 </table>
+                </div>
             </body>
         </html>
     </xsl:template>
