@@ -24,3 +24,7 @@
 .headercontact{
   float: right ;
 }
+
+.headerright{
+  float:left ;
+}
