@@ -1,36 +1,42 @@
 <!DOCTYPE books SYSTEM "books.dtd">
 <books>
     <book>
+        <image>harrypotter.jpg</image>
         <title>Harry Potter</title>
         <author>J.K Rowling</author>
         <genre>Fiction</genre> 
         <price>£9.99</price>
     </book>
     <book>
+        <image>Themysteryguest.jpg</image>
         <title>The mystery Guest</title>
         <author>Nita Prose</author>
         <genre>Fiction</genre>
         <price>£15.99</price>
     </book>
     <book>
+        <image>wherethedarkstandsstill.jpg</image>
         <title>Where the dark stands still</title>
         <author>A.B Poranek</author>
         <genre>Fiction</genre>
         <price>£14.99</price>
     </book>
     <book>
+        <image>fatebreaker.jpg</image>
         <title>Fate Breaker</title>
         <author>Victoria Aveyard</author>
         <genre>Fiction</genre>
         <price>£22.99</price>
     </book>
     <book>
+        <image>empireofthedamned.jpg</image>
         <title>Empire of the Damned</title>
         <author>Jay Kristoff</author>
         <genre>Fiction</genre>
         <price>£24.99</price>
     </book>
     <book>
+        <image>Theblackbirdoracle.jpg</image>
         <title>The Black Bird Oracle</title>
         <author>Deborah Harkness</author>
         <genre>Fiction</genre>
