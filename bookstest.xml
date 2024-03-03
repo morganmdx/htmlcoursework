@@ -1,16 +1,40 @@
 <!DOCTYPE books SYSTEM "books.dtd">
 <books>
     <book>
-        <title>The Great Gatsby</title>
-        <author>F. Scott Fitzgerald</author>
+        <title>Harry Potter</title>
+        <author>J.K Rowling</author>
         <genre>Fiction</genre> 
-        <price>12.99</price>
+        <price>£9.99</price>
     </book>
     <book>
-        <title>To Kill a Mockingbird</title>
-        <author>Harper Lee</author>
+        <title>The mystery Guest</title>
+        <author>Nita Prose</author>
         <genre>Fiction</genre>
-        <price>11.50</price>
+        <price>£15.99</price>
     </book>
-    <!-- Add more books as needed -->
+    <book>
+        <title>Where the dark stands still</title>
+        <author>A.B Poranek</author>
+        <genre>Fiction</genre>
+        <price>£14.99</price>
+    </book>
+    <book>
+        <title>Fate Breaker</title>
+        <author>Victoria Aveyard</author>
+        <genre>Fiction</genre>
+        <price>£22.99</price>
+    </book>
+    <book>
+        <title>Empire of the Damned</title>
+        <author>Jay Kristoff</author>
+        <genre>Fiction</genre>
+        <price>£24.99</price>
+    </book>
+    <book>
+        <title>The Black Bird Oracle</title>
+        <author>Deborah Harkness</author>
+        <genre>Fiction</genre>
+        <price>£25.99</price>
+    </book>
+   
 </books>
