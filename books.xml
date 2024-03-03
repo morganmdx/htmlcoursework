@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="books.xslt"?>
+<books>
+    <book>
+        <title>Harry Potter</title>
+        <author>J.K Rowling</author>
+        <genre>Fiction</genre> 
+        <price>£9.99</price>
+        <image>harrypotter.jpg</image>
+    </book>
+    <book>
+        <title>The mystery Guest</title>
+        <author>Nita Prose</author>
+        <genre>Fiction</genre>
+        <price>£15.99</price>
+        <image>Themysteryguest.jpg</image>
+    </book>
+    <book>
+        <title>Where the dark stands still</title>
+        <author>A.B Poranek</author>
+        <genre>Fiction</genre>
+        <price>£14.99</price>
+        <image>wherethedarkstandsstill.jpg</image>
+    </book>
+    <book>
+        <title>Fate Breaker</title>
+        <author>Victoria Aveyard</author>
+        <genre>Fiction</genre>
+        <price>£22.99</price>
+        <image>fatebreaker.jpg</image>
+    </book>
+    <book>
+        <title>Empire of the Damned</title>
+        <author>Jay Kristoff</author>
+        <genre>Fiction</genre>
+        <price>£24.99</price>
+        <image>empireofthdamned.jpg</image>
+    </book>
+    <book>
+        <title>The Black Bird Oracle</title>
+        <author>Deborah Harkness</author>
+        <genre>Fiction</genre>
+        <price>£25.99</price>
+        <image>Theblackbirdoracle.jpg</image>
+    </book>
+</books>
