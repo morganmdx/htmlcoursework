@@ -16,3 +16,7 @@
   .navbar-brand {
     height:auto !important ;
   }
+
+  header i{
+    color: white;
+  }
